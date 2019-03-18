@@ -6,5 +6,4 @@ function myFunction() {
   else if(x!=""){
     x=document.getElementById("help").value
   }
-
   document.getElementById("demo").innerHTML = x;}
