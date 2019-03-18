@@ -8,5 +8,6 @@ function myFunction() {
     x=document.getElementById("help").value
     document.getElementById("deemo").disabled=true
   }
+  document.getElementById("deemo").innerHTML = z;
   document.getElementById("demo").innerHTML = x;
 }
