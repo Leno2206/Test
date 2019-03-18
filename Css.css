@@ -70,3 +70,9 @@ transform: translateX(0%);
 
 .test1{
 	color:purple;
+}
+.babo{
+	position:relative;
+	top: 200px
+	left:100px
+}
