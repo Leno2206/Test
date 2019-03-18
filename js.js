@@ -11,7 +11,20 @@ function myFunction() {
   }
   document.getElementById("deemo").innerHTML = z;
   document.getElementById("demo").innerHTML = x;
-}
+
+if(x.includes("+")){
+  var split = x.split("+")
+} console.log(split[1])
+
+  else if(x.includes("-")){
+    var split = x.split("-")}
+console.log(split[1])
+    else if(x.includes("/")){
+      var split = x.split("/")}
+console.log(split[1])
+      else if(x.includes("*")){
+        var split = x.split("*")}
+}console.log(split[1])
 
 window.onload = myFunction()
 
