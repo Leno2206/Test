@@ -72,7 +72,12 @@ transform: translateX(0%);
 	color:purple;
 }
 .babo{
-	position: absolute;
-	top: 500px
-	left:100px
+	background-color: #4CAF50; /* Green */
+	  border: none;
+	  color: white;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
 }
