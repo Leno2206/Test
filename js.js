@@ -11,15 +11,16 @@ function myFunction() {
   }
   document.getElementById("deemo").innerHTML = z;
   document.getElementById("demo").innerHTML = x;
+  if(x.includes("+")){
+    var split = x.split("+")}
+  else if(x.includes("-")){
+    var split = x.split("-")}
+    else if(x.includes("/")){
+      var split = x.split("/")}
+      else if(x.includes("*")){
+        var split = x.split("*")}}
 
-if(x.includes("+")){
-  var split = x.split("+")}
-else if(x.includes("-")){
-  var split = x.split("-")}
-  else if(x.includes("/")){
-    var split = x.split("/")}
-    else if(x.includes("*")){
-      var split = x.split("*")}}
+}
 
 
 window.onload = myFunction()
