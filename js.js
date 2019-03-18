@@ -12,7 +12,7 @@ function myFunction() {
     document.getElementById("deemo").disabled=true
   }
   document.getElementById("deemo").innerHTML = z;
-  document.getElementById("demo").innerHTML = x;
+  document.getElementById("demo").innerHTML = result;
 }
 
 window.onload = myFunction()
