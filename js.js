@@ -6,7 +6,7 @@ function myFunction() {
   }
   else if(x!=""){
     x=document.getElementById("help").value
+    document.getElementById("deemo").disabled=true
   }
   document.getElementById("demo").innerHTML = x;
-  document.getElementById("deemo").disabled=true
 }
