@@ -7,7 +7,9 @@ body {
 	flex-direction: column;
 	font-family: sans-serif;
 
+h1{
 
+}
 }
 
 .form{
@@ -82,8 +84,8 @@ transform: translateX(0%);
 	  font-size: 16px;
 }
 p{
-	color:red
+	color:Green
 }
 .testo{
-	color:blue
+	color:red
 }
