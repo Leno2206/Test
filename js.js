@@ -12,3 +12,9 @@ function myFunction() {
   document.getElementById("demo").innerHTML = x;
 }
 window.onload = myFunction()
+
+var input = document.getElementById("help");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("dada").click();
