@@ -6,7 +6,7 @@ body {
 	align-items:center;
 	flex-direction: column;
 	font-family: sans-serif;
-	
+
 
 }
 
@@ -69,4 +69,4 @@ transform: translateX(0%);
 }
 
 .test1{
-	color:blue;
+	color:green;
