@@ -20,8 +20,6 @@ function myFunction() {
       else if(x.includes("*")){
         var split = x.split("*")}}
 
-}
-
 
 window.onload = myFunction()
 
