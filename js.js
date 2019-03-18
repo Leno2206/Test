@@ -15,16 +15,16 @@ function myFunction() {
 if(x.includes("+")){
   var split = x.split("+")
 } console.log(split[1])
-
-  else if(x.includes("-")){
-    var split = x.split("-")}
+else if(x.includes("-")){
+  var split = x.split("-")}
 console.log(split[1])
-    else if(x.includes("/")){
-      var split = x.split("/")}
+  else if(x.includes("/")){
+    var split = x.split("/")}
 console.log(split[1])
-      else if(x.includes("*")){
-        var split = x.split("*")}
+    else if(x.includes("*")){
+      var split = x.split("*")}
 }console.log(split[1])
+
 
 window.onload = myFunction()
 
