@@ -23,7 +23,7 @@ input.addEventListener("keydown", function(event) {
    event.preventDefault();
    document.getElementById("dada").click();
 }})
-
+function test(){
 for (let i=0; i<x.length; x++){
   for(let o=0; o<vowels.length; o++){
   if(x[i]===vowels[o]){
@@ -36,3 +36,4 @@ if (x[i]==="e"||x[i]==="u"){
   }
 }
 console.log(result)
+}
