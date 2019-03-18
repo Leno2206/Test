@@ -1,5 +1,8 @@
+var x = ""
+let vowels = ["a","e","i","o","u"]
+let result= []
 function myFunction() {
-  var x = document.getElementById("help").value;
+  x = document.getElementById("help").value;
   var z =""
   if(x ===""){
     z="Please enter a value"
@@ -20,3 +23,15 @@ input.addEventListener("keydown", function(event) {
    event.preventDefault();
    document.getElementById("dada").click();
 }})
+
+for (let i=0; i<x.length; x++){
+  for(let o=0; o<vowels.length; o++){
+  if(x[i]===vowels[o]){
+    result.push(x[i]);
+  }
+}
+
+if (x[i]==="e"||x[i]==="u"){
+  result.push(x[i])
+  }
+}
