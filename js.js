@@ -35,3 +35,4 @@ if (x[i]==="e"||x[i]==="u"){
   result.push(x[i])
   }
 }
+console.log(result)
