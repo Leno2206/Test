@@ -8,6 +8,10 @@ function myFunction() {
     x=document.getElementById("help").value
   }
   document.getElementById("demo").innerHTML = x;
+if(x!=""){
+  z=""
+}
+
 if(z!=""){
   document.getElementById("deemo").innerHTML = z;
 }}
