@@ -9,3 +9,4 @@ function myFunction() {
   }
   document.getElementById("demo").innerHTML = x;
   document.getElementById("deemo").disabled=true
+}
