@@ -15,7 +15,7 @@ function myFunction() {
 window.onload = myFunction()
 
 var input = document.getElementById("help");
-input.addEventListener("keyup", function(event) {
+input.addEventListener("keydown", function(event) {
   if (event.keyCode === 13) {
    event.preventDefault();
    document.getElementById("dada").click();
