@@ -11,27 +11,6 @@ function myFunction() {
   }
   document.getElementById("deemo").innerHTML = z;
   document.getElementById("demo").innerHTML = x;
-  for(let i=0; i<x.length;i++){
-    if(x.includes("+")){
-      let split = x.split("+")
-      console.log(split)
-    }}
-    for(let i=0; i<x.length;i++){
-      if(x.includes("-")){
-        let split = x.split("-")
-        console.log(split)
-      }}
-      for(let i=0; i<x.length;i++){
-        if(x.includes("*")){
-          let split = x.split("*")
-          console.log(split)
-        }}
-        for(let i=0; i<x.length;i++){
-          if(x.includes("/")){
-            let split = x.split("/")
-            console.log(split)
-          }
-  }
 }
 window.onload = myFunction()
 
