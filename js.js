@@ -42,4 +42,4 @@ input.addEventListener("keydown", function(event) {
          result += String.fromCharCode(charcode);
      }
      document.getElementById("demo").innerHTML = result;
-}
+}}
