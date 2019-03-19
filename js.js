@@ -32,7 +32,7 @@ input.addEventListener("keydown", function(event) {
      virus = String(str).toLowerCase();
      if(str=""){
        document.getElementById("demo").innerHTML="Please enter a Value"
-     }
+     }else if(str!=""){
      var result = '';
      var charcode = 0;
 
@@ -40,6 +40,6 @@ input.addEventListener("keydown", function(event) {
          charcode = (virus[i].charCodeAt()) + 2;
          result += String.fromCharCode(charcode);
      }
-     document.getElementById("deeemo").innerHTML = result;
-
+     document.getElementById("demo").innerHTML = result;
+}
  }
