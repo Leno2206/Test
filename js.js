@@ -30,7 +30,7 @@ input.addEventListener("keydown", function(event) {
       var virus = String(str).toLowerCase();
       var amk
      if(str===""){
-       amk ="Please enter a Value"
+       amk ="Please enter a value"
        document.getElementById('demo').innerHTML=amk}
        else if (str!=""){
 
