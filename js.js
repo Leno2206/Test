@@ -32,7 +32,7 @@ function myFunction() {
             console.log(split)
           }
   }
-
+}
 window.onload = myFunction()
 
 var input = document.getElementById("help");
