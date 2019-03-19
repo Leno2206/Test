@@ -25,7 +25,7 @@ input.addEventListener("keydown", function(event) {
 
 
  function CaesarCipher(str, num) {
-     // you can comment this line
+     let str = ""
      str = str.toLowerCase();
 
      var result = '';
