@@ -24,13 +24,13 @@ input.addEventListener("keydown", function(event) {
 
 
 
-
  function CaesarCipher() {
       var str = document.getElementById("help").value
       var virus = String(str).toLowerCase();
       var amk
      if(str===""){
        amk ="Please enter a value"
+       document.getElementById("demo").style.color =  #8B0000
        document.getElementById('demo').innerHTML=amk}
        else if (str!=""){
 
