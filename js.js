@@ -1,7 +1,3 @@
-import typed.js
-
-
-
 function myFunction() {
   var x = document.getElementById("help").value;
   var z =""
