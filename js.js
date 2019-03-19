@@ -12,7 +12,7 @@
 
 
 }*/
-window.onload = CaesarCiphern()
+window.onload = CaesarCipher()
 
 var input = document.getElementById("help");
 input.addEventListener("keydown", function(event) {
