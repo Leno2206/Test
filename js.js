@@ -24,18 +24,17 @@ input.addEventListener("keydown", function(event) {
 
 
 
- function CaesarCipher(str, num) {
-     let str = ""
+ function CaesarCipher() {
+     var str = document.getElementById("help")
      str = str.toLowerCase();
 
      var result = '';
      var charcode = 0;
 
      for (var i = 0; i < str.length; i++) {
-         charcode = (str[i].charCodeAt()) + num;
+         charcode = (str[i].charCodeAt()) + 2;
          result += String.fromCharCode(charcode);
      }
-     return result;
+     document.getElementById("deeemo").innerHTML = result;
 
  }
- console.log(CaesarCipher(x, 2));
