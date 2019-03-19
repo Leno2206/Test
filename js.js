@@ -6,10 +6,7 @@ function myFunction() {
     z="Please enter a value"
   }
   else if(x!=""){
-    x=document.getElementById("help").value
-    document.getElementById("demo").disabled=false
-    document.getElementById("deemo").disabled=true
-    document.getElementById("deeemo").disabled=true
+    x=document.getElementById("help").value document.getElementById("deeemo").innerHTML=""
   }
   document.getElementById("deemo").innerHTML = z;
   document.getElementById("demo").innerHTML = x;
