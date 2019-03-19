@@ -15,6 +15,7 @@ function myFunction() {
   document.getElementById("demo").innerHTML = x;
 }
 window.onload = myFunction()
+window.onload = CaesarCipher()
 
 var input = document.getElementById("help");
 input.addEventListener("keydown", function(event) {
@@ -31,8 +32,8 @@ input.addEventListener("keydown", function(event) {
      var str = document.getElementById("help").value
      virus = String(str).toLowerCase();
      if(str!=""){
-       document.getElementById("deemo").disabled=true
-       document.getElementById("demo").disabled=true
+       document.getElementById("deemo").innerHTML=""
+       document.getElementById("demo").innerHTML=""
        document.getElementById("deeemo").disabled=false
      }
      var result = '';
