@@ -26,7 +26,7 @@ input.addEventListener("keydown", function(event) {
 
  function CaesarCipher() {
      var str = document.getElementById("help")
-     virus = String(str).toLowerCase();
+     //virus = String(str).toLowerCase();
 
      var result = '';
      var charcode = 0;
