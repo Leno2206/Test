@@ -1,4 +1,4 @@
-function myFunction() {
+/* function myFunction() {
   var x = document.getElementById("help").value;
   var z =""
   if(x ===""){
@@ -9,10 +9,10 @@ function myFunction() {
     x=document.getElementById("help").value
     document.getElementById("demo").innerHTML = x;
   }
-
+*/
 
 }
-window.onload = myFunction()
+window.onload = CaesarCiphern()
 
 var input = document.getElementById("help");
 input.addEventListener("keydown", function(event) {
