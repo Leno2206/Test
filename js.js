@@ -7,7 +7,9 @@ function myFunction() {
   }
   else if(x!=""){
     x=document.getElementById("help").value
+    document.getElementById("demo").disabled=false
     document.getElementById("deemo").disabled=true
+    document.getElementById("deeemo").disabled=true
   }
   document.getElementById("deemo").innerHTML = z;
   document.getElementById("demo").innerHTML = x;
@@ -30,6 +32,8 @@ input.addEventListener("keydown", function(event) {
      virus = String(str).toLowerCase();
      if(str!=""){
        document.getElementById("deemo").disabled=true
+       document.getElementById("demo").disabled=true
+       document.getElementById("deeemo").disabled=false
      }
      var result = '';
      var charcode = 0;
