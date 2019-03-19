@@ -1,6 +1,7 @@
-var x = document.getElementById("help").value;
-var z =""
+
 function myFunction() {
+  var x = document.getElementById("help").value;
+  var z =""
   if(x ===""){
     z="Please enter a value"
   }
