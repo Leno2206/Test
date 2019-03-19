@@ -9,9 +9,9 @@
     x=document.getElementById("help").value
     document.getElementById("demo").innerHTML = x;
   }
-*/
 
-}
+
+}*/
 window.onload = CaesarCiphern()
 
 var input = document.getElementById("help");
