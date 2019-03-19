@@ -1,4 +1,3 @@
-
 function myFunction() {
   var x = document.getElementById("help").value;
   var z =""
@@ -14,7 +13,6 @@ function myFunction() {
 
 }
 window.onload = myFunction()
-window.onload = CaesarCipher()
 
 var input = document.getElementById("help");
 input.addEventListener("keydown", function(event) {
@@ -28,10 +26,14 @@ input.addEventListener("keydown", function(event) {
 
 
  function CaesarCipher() {
-     var str = document.getElementById("help").value
-     virus = String(str).toLowerCase();
-     if(str=""){
-       document.getElementById("demo").innerHTML="Please enter a Value"}
+      var str = document.getElementById("help").value
+      var virus = String(str).toLowerCase();
+      var amk
+     if(str===""){
+       amk ="Please enter a Value"
+       document.getElementById('demo').innerHTML=amk}
+       else if (str!=""){
+
      var result = '';
      var charcode = 0;
 
