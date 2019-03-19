@@ -31,8 +31,7 @@ input.addEventListener("keydown", function(event) {
      var str = document.getElementById("help").value
      virus = String(str).toLowerCase();
      if(str=""){
-       document.getElementById("demo").innerHTML="Please enter a Value"
-     }else if(str!=""){
+       document.getElementById("demo").innerHTML="Please enter a Value"}
      var result = '';
      var charcode = 0;
 
