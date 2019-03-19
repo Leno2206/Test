@@ -30,9 +30,7 @@ input.addEventListener("keydown", function(event) {
      var str = document.getElementById("help").value
      virus = String(str).toLowerCase();
      if(str!=""){
-       document.getElementById("deemo").innerHTML=""
        document.getElementById("demo").innerHTML=""
-       document.getElementById("deeemo").disabled=false
      }
      var result = '';
      var charcode = 0;
