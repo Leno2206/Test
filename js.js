@@ -6,7 +6,8 @@ function myFunction() {
     z="Please enter a value"
   }
   else if(x!=""){
-    x=document.getElementById("help").value document.getElementById("deeemo").innerHTML=""
+    x=document.getElementById("help").value
+    document.getElementById("deeemo").innerHTML=""
   }
   document.getElementById("deemo").innerHTML = z;
   document.getElementById("demo").innerHTML = x;
