@@ -13,22 +13,22 @@ function myFunction() {
   document.getElementById("demo").innerHTML = x;
   for(let i=0; i<x.length;i++){
     if(x.includes("+")){
-      let split = x.split(+)
+      let split = x.split("+")
       console.log(split)
     }
     for(let i=0; i<x.length;i++){
       if(x.includes("-")){
-        let split = x.split(-)
+        let split = x.split("-")
         console.log(split)
       }
       for(let i=0; i<x.length;i++){
         if(x.includes("*")){
-          let split = x.split(*)
+          let split = x.split("*")
           console.log(split)
         }
         for(let i=0; i<x.length;i++){
           if(x.includes("/")){
-            let split = x.split(/)
+            let split = x.split("/")
             console.log(split)
           }
   }
