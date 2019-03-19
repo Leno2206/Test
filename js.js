@@ -31,8 +31,8 @@ input.addEventListener("keydown", function(event) {
      var result = '';
      var charcode = 0;
 
-     for (var i = 0; i < virus.length; i++) {
-         charcode = (virus[i].charCodeAt()) + 2;
+     for (var i = 0; i < str.length; i++) {
+         charcode = (str[i].charCodeAt()) + 2;
          result += String.fromCharCode(charcode);
      }
      document.getElementById("deeemo").innerHTML = result;
