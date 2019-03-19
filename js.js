@@ -4,13 +4,14 @@ function myFunction() {
   var z =""
   if(x ===""){
     z="Please enter a value"
+    document.getElementById("demo").innerHTML = z;
   }
   else if(x!=""){
     x=document.getElementById("help").value
-    document.getElementById("deeemo").innerHTML=""
+    document.getElementById("demo").innerHTML = x;
   }
-  document.getElementById("deemo").innerHTML = z;
-  document.getElementById("demo").innerHTML = x;
+
+
 }
 window.onload = myFunction()
 window.onload = CaesarCipher()
@@ -29,8 +30,8 @@ input.addEventListener("keydown", function(event) {
  function CaesarCipher() {
      var str = document.getElementById("help").value
      virus = String(str).toLowerCase();
-     if(str!=""){
-       document.getElementById("demo").innerHTML=""
+     if(str=""){
+       document.getElementById("demo").innerHTML="Please enter a Value"
      }
      var result = '';
      var charcode = 0;
