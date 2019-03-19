@@ -27,7 +27,7 @@ input.addEventListener("keydown", function(event) {
 
  function CaesarCipher() {
      var str = document.getElementById("help").value
-     //virus = String(str).toLowerCase();
+     virus = String(str).toLowerCase();
      if(str!=""){
        document.getElementById("deemo").disabled=true
      }
@@ -35,7 +35,7 @@ input.addEventListener("keydown", function(event) {
      var charcode = 0;
 
      for (var i = 0; i < str.length; i++) {
-         charcode = (str[i].charCodeAt()) + 2;
+         charcode = (virus[i].charCodeAt()) + 2;
          result += String.fromCharCode(charcode);
      }
      document.getElementById("deeemo").innerHTML = result;
