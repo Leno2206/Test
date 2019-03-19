@@ -41,4 +41,3 @@ input.addEventListener("keydown", function(event) {
      }
      document.getElementById("demo").innerHTML = result;
 }
- }
