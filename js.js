@@ -1,6 +1,6 @@
+var x = document.getElementById("help").value;
+var z =""
 function myFunction() {
-  var x = document.getElementById("help").value;
-  var z =""
   if(x ===""){
     z="Please enter a value"
   }
@@ -19,3 +19,23 @@ input.addEventListener("keydown", function(event) {
    event.preventDefault();
    document.getElementById("dada").click();
  }})
+
+
+
+
+
+ function CaesarCipher(str, num) {
+     // you can comment this line
+     str = str.toLowerCase();
+
+     var result = '';
+     var charcode = 0;
+ 
+     for (var i = 0; i < str.length; i++) {
+         charcode = (str[i].charCodeAt()) + num;
+         result += String.fromCharCode(charcode);
+     }
+     return result;
+
+ }
+ console.log(CaesarCipher(x, 2));
