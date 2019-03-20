@@ -85,7 +85,7 @@ transform: translateX(0%);
 	  font-size: 16px;
 }
 .p{
-	border:2px solid black;
+	border:2px solid;
 	color:Green;
 	outline:none;
 	resize:horizontal;
