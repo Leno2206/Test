@@ -91,8 +91,16 @@ transform: translateX(0%);
 	resize:horizontal;
 	width: 1000px;
 	overflow:auto;
-
 }
+.p:active{
+	width:auto;
+}
+.p:focus{
+	min-width:500px;
+}
+
+
+
 
 .Encode{
 	vertical-align: baseline;
