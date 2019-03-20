@@ -31,6 +31,7 @@ if(document.getElementById("Decode").checked){
     document.getElementById('Message').innerHTML=error}
     else if (str!=""){
       document.getElementById("Message").style.color =  "green"
+      document.getElementById("Input").value=""
   var result = '';
   var charcode = 0;
 
