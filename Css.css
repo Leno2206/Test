@@ -87,9 +87,8 @@ transform: translateX(0%);
 .p{
 	color:Green;
 	outline:none;
-	display:inline-block;
-	width:auto;
-	height:auto;
+	resize:horizontal;
+	border:none;
 }
 
 .Encode{
