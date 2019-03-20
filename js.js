@@ -47,7 +47,7 @@ function CaesarDecipher() {
     var charcode = 0;
 
     for (var i = 0; i < str.length; i++) {
-        charcode = (virus[i].charCodeAt()) + -2;
+        charcode = (virus[i].charCodeAt()) - 2;
         result += String.fromCharCode(charcode);
     }
     document.getElementById("demo").innerHTML = result;
