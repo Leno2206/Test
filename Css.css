@@ -89,11 +89,11 @@ transform: translateX(0%);
 	color:Green;
 	outline:none;
 	resize:horizontal;
-	width: 1000px;
+	width: 500px;
 	overflow:auto;
 }
 .p:active{
-	width:500px;
+	width:1000px;
 }
 
 
