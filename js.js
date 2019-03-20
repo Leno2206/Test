@@ -14,7 +14,7 @@
 }*/
 //window.onload = CaesarCipher()
  function CaesarCipher() {
-   if(document.getElementById('Encode').checked = true){
+   if(document.getElementById('Encode').checked){
       var str = document.getElementById("help").value
       var virus = String(str).toLowerCase();
       var amk
@@ -34,7 +34,7 @@
      document.getElementById("demo").innerHTML = result;
 }}
 
-if(document.getElementById("Decode").checked=true){
+if(document.getElementById("Decode").checked){
    var str = document.getElementById("help").value
    var virus = String(str).toLowerCase();
    var amk
