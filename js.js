@@ -43,3 +43,23 @@ input.addEventListener("keydown", function(event) {
      }
      document.getElementById("demo").innerHTML = result;
 }}
+
+function CaesarDecipher() {
+     var str = document.getElementById("help").value
+     var virus = String(str).toLowerCase();
+     var amk
+    if(str===""){
+      amk ="Please enter a value"
+      document.getElementById("demo").style.color =  "red"
+      document.getElementById('demo').innerHTML=amk}
+      else if (str!=""){
+        document.getElementById("demo").style.color =  "green"
+    var result = '';
+    var charcode = 0;
+
+    for (var i = 0; i < str.length; i++) {
+        charcode = (virus[i].charCodeAt()) + -2;
+        result += String.fromCharCode(charcode);
+    }
+    document.getElementById("demo").innerHTML = result;
+}}
