@@ -85,8 +85,8 @@ transform: translateX(0%);
 	  font-size: 16px;
 }
 .p{
-	color:Green
-
+	color:Green;
+	border:none;
 }
 
 .Encode{
