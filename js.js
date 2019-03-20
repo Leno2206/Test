@@ -7,7 +7,7 @@ window.onload = CaesarCipher()
      if(str===""){
        error ="Please enter a value"
        document.getElementById("Message").style.color =  "red"
-       document.getElementById('Message').innerHTML=error}
+       document.getElementById('Message').value=error}
        else if (str!=""){
          document.getElementById("Message").style.color =  "green"
          document.getElementById("Input").value=""
@@ -18,7 +18,7 @@ window.onload = CaesarCipher()
          charcode = (str_lower[i].charCodeAt()) + 2;
          result += String.fromCharCode(charcode);
      }
-     document.getElementById("Message").innerHTML = result;
+     document.getElementById("Message").value = result;
 }}
 
 if(document.getElementById("Decode").checked){
@@ -28,7 +28,7 @@ if(document.getElementById("Decode").checked){
   if(str===""){
     error ="Please enter a value"
     document.getElementById("Message").style.color =  "red"
-    document.getElementById('Message').innerHTML=error}
+    document.getElementById('Message').value=error}
     else if (str!=""){
       document.getElementById("Message").style.color =  "green"
       document.getElementById("Input").value=""
@@ -39,5 +39,5 @@ if(document.getElementById("Decode").checked){
       charcode = (str_lower[i].charCodeAt()) - 2;
       result += String.fromCharCode(charcode);
   }
-  document.getElementById("Message").innerHTML = result;
+  document.getElementById("Message").value = result;
 }}}
