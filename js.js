@@ -53,12 +53,7 @@ if(document.getElementById("Decode").checked="true"){
   }
   document.getElementById("demo").innerHTML = result;
 }}}
-
-
-
-
-}
-function CaesarDecipher() {
+/*function CaesarDecipher() {
   if(document.getElementById("Decode").checked="true"){
      var str = document.getElementById("help").value
      var virus = String(str).toLowerCase();
@@ -77,4 +72,4 @@ function CaesarDecipher() {
         result += String.fromCharCode(charcode);
     }
     document.getElementById("demo").innerHTML = result;
-}}}
+}}}*/
