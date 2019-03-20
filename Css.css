@@ -27,14 +27,12 @@ h1{
 }
 
 .form input{
-	min-width:50px!important;
-	height:99.99%!important;
+	width:100%;
+	height:100%;
 	color:#52985f;
 	padding-top: 25px;
-	transition:width 0.1s;
 	border:none;
-	outline: none;
-	text-align: center;
+	outline: none
 }
 
 
@@ -87,7 +85,7 @@ transform: translateX(0%);
 	  font-size: 16px;
 }
 .p{
-	color:Green;
+	color:Green
 	border:none;
 	outline:none;
 }
