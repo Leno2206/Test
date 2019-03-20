@@ -93,10 +93,7 @@ transform: translateX(0%);
 	overflow:auto;
 }
 .p:active{
-	width:auto;
-}
-.p:focus{
-	min-width:500px;
+	width:500px;
 }
 
 
