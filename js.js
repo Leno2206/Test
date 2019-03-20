@@ -12,7 +12,7 @@
 
 
 }*/
-window.onload = CaesarCipher()
+//window.onload = CaesarCipher()
  function CaesarCipher() {
    if(document.getElementById('Encode').checked = "true"){
       var str = document.getElementById("help").value
