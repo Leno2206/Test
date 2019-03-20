@@ -5,7 +5,7 @@ window.onload = CaesarCipher()
       var str_lower = String(str).toLowerCase();
       var error
      if(str===""){
-       error ="Please enter a value"
+       error ="Please enter a value..."
        document.getElementById("Message").style.color =  "red"
        document.getElementById('Message').value=error}
        else if (str!=""){
@@ -26,7 +26,7 @@ if(document.getElementById("Decode").checked){
    var str_lower = String(str).toLowerCase();
    var error
   if(str===""){
-    error ="Please enter a value"
+    error ="Please enter a value..."
     document.getElementById("Message").style.color =  "red"
     document.getElementById('Message').value=error}
     else if (str!=""){
