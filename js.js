@@ -2,7 +2,7 @@ window.onload = CaesarCipher()
  function CaesarCipher() {
    if(document.getElementById('Encode').checked){
       var str = document.getElementById("Input").value
-      var str.lower = String(str).toLowerCase();
+      var str_lower = String(str).toLowerCase();
       var error
      if(str===""){
        error ="Please enter a value"
@@ -15,7 +15,7 @@ window.onload = CaesarCipher()
      var charcode = 0;
 
      for (var i = 0; i < str.length; i++) {
-         charcode = (str.lower[i].charCodeAt()) + 2;
+         charcode = (str_lower[i].charCodeAt()) + 2;
          result += String.fromCharCode(charcode);
      }
      document.getElementById("Message").innerHTML = result;
@@ -23,7 +23,7 @@ window.onload = CaesarCipher()
 
 if(document.getElementById("Decode").checked){
    var str = document.getElementById("Input").value
-   var str.lower = String(str).toLowerCase();
+   var str_lower = String(str).toLowerCase();
    var error
   if(str===""){
     error ="Please enter a value"
@@ -35,7 +35,7 @@ if(document.getElementById("Decode").checked){
   var charcode = 0;
 
   for (var i = 0; i < str.length; i++) {
-      charcode = (str.lower[i].charCodeAt()) - 2;
+      charcode = (str_lower[i].charCodeAt()) - 2;
       result += String.fromCharCode(charcode);
   }
   document.getElementById("Message").innerHTML = result;
