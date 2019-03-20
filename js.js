@@ -24,7 +24,7 @@ window.onload = CaesarCipher()
        document.getElementById('demo').innerHTML=amk}
        else if (str!=""){
          document.getElementById("demo").style.color =  "green"
-         document.getElementById("help").innerHTML=""
+         document.getElementById("help").innerHTML="test"
      var result = '';
      var charcode = 0;
 
