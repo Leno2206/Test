@@ -74,10 +74,7 @@ h1{
 transform: translateX(0%);
 }
 
-.test1{
-	color:purple;
-}
-.babo{
+.submitClass{
 	background-color: pink;
 	  border: none;
 	  color: white;
@@ -89,9 +86,6 @@ transform: translateX(0%);
 }
 p{
 	color:Green
-}
-.testo{
-	color:blue;
 }
 
 .Encode{

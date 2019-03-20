@@ -6,10 +6,7 @@
 	<title>Leno2206's Website</title>
 </head>
 <h1>
-
 Message Encoder
-
-
 </h1>
 	<body>
 
@@ -18,25 +15,17 @@ Message Encoder
 		<div class="form">
 
 
-			<input type="text" name="name" autocomplete="off" id="help" required autofocus />
+			<input type="text" name="name" autocomplete="off" id="Input" required autofocus />
 			<label for="name" class="label-name">
 				<span class="content-name">Your Message:</span>
 
 </label>
 </div>
 
-<!--
-<button name="test" id="dada" class="babo" onclick="myFunction()">Test
-</button>
-	<button name="button" id="kelp" class="babo" onclick="CaesarCipher()">Encode
-	</button>
-	<button name="button" id="pelp" class="babo" onclick="CaesarDecipher()">Decode
-	</button>-->
-
 <label><form class="Radio">
-	<input type="radio" id="Encode" class = "Encode" name="button" value="test" checked/>Encode<br>
+	<input type="radio" id="Encode" class = "Encode" name="button" checked/>Encode<br>
 
-	<input type="radio" id="Decode" class = "Decode" name="button" value="test"/>Decode<br>
+	<input type="radio" id="Decode" class = "Decode" name="button"/>Decode<br>
 	</form>
 	</label>
 
@@ -44,10 +33,10 @@ Message Encoder
 
 
 
-	<button class="babo" value="submit" name="button" id="kelp" onclick="CaesarCipher()">Submit</button>
+	<button class="submitClass" value="submit" name="button" onclick="CaesarCipher()">Submit</button>
 
 
-<p id="demo" class="testo"></p>
+<p id="Message"></p>
 
 <script src="js.js"></script>
 	</body>
