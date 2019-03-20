@@ -88,6 +88,9 @@ transform: translateX(0%);
 	color:Green;
 	border:none;
 	outline:none;
+	display: inline-block;
+	width:auto;
+	height:auto;
 }
 
 .Encode{
