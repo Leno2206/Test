@@ -87,7 +87,7 @@ transform: translateX(0%);
 .p{
 	color:Green;
 	outline:none;
-	display:flex;
+	display:inline-block;
 	width:auto;
 	height:auto;
 }
