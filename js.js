@@ -14,6 +14,7 @@
 }*/
 window.onload = CaesarCipher()
  function CaesarCipher() {
+   if(document.getElementById('Encode').checked = "true"){
       var str = document.getElementById("help").value
       var virus = String(str).toLowerCase();
       var amk
@@ -31,9 +32,9 @@ window.onload = CaesarCipher()
          result += String.fromCharCode(charcode);
      }
      document.getElementById("demo").innerHTML = result;
-}}
-
+}}}
 function CaesarDecipher() {
+  if(document.getElementById("Decode").checked="true"){
      var str = document.getElementById("help").value
      var virus = String(str).toLowerCase();
      var amk
@@ -51,4 +52,4 @@ function CaesarDecipher() {
         result += String.fromCharCode(charcode);
     }
     document.getElementById("demo").innerHTML = result;
-}}
+}}}
