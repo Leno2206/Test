@@ -86,7 +86,6 @@ transform: translateX(0%);
 }
 .p{
 	color:Green;
-	border:none;
 	outline:none;
 	display:flex;
 	width:auto;
