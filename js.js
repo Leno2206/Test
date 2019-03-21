@@ -4,8 +4,6 @@ window.onload = CaesarCipher()
       var str = document.getElementById("Input").value
       var str_lower = String(str).toLowerCase();
       var error
-      document.getElementById("submit").innerHTML=
-      "ENCODE!"
      if(str===""){
        error ="Please enter a value..."
        document.getElementById("Message").style.color =  "red"
@@ -27,8 +25,6 @@ if(document.getElementById("Decode").checked){
    var str = document.getElementById("Input").value
    var str_lower = String(str).toLowerCase();
    var error
-   document.getElementById("submit").innerHTML=
-   "DECODE!"
   if(str===""){
     error ="Please enter a value..."
     document.getElementById("Message").style.color =  "red"
@@ -63,3 +59,14 @@ Enter.addEventListener("keyup", function(event) {
    document.getElementById("submit").click();
   }
 });
+
+
+
+function RadioEncode(){
+  document.getElementById("submit").innerHTML=
+  "ENCODE!"
+}
+function RadioDecode(){
+  document.getElementById("submit").innerHTML=
+  "DECODE!"
+}
