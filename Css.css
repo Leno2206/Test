@@ -96,7 +96,9 @@ transform: translateX(0%);
 	width:1000px;
 }
 
-
+.Pass{
+	all:unset !important;
+}
 
 
 .Encode{
