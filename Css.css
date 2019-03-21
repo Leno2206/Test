@@ -96,12 +96,6 @@ transform: translateX(0%);
 	width:1000px;
 }
 
-.Pass{
-	display:inline !important;
-	align-items:center !important;
-	flex-direction:row !important;
-	font-family: sans-serif !important;
-}
 
 
 .Encode{
