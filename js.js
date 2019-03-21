@@ -1,5 +1,6 @@
 window.onload = CaesarCipher()
  function CaesarCipher() {
+   RadioEncode()
    if(document.getElementById('Encode').checked){
       var str = document.getElementById("Input").value
       var str_lower = String(str).toLowerCase();
