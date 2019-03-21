@@ -41,3 +41,12 @@ if(document.getElementById("Decode").checked){
   }
   document.getElementById("Message").value = result;
 }}}
+
+function ShowPassword(){
+  var InputPass= document.getElementById("Input");
+  if (InputPass.type==="password"){
+    InputPass.type= "text";
+  } else{
+    InputPass.type="password";
+  }
+}
