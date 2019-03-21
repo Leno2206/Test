@@ -52,10 +52,10 @@ function ShowPassword(){
 }
 
 
-var Enter= document.getElementById("Input");
-Enter.addEventListener("Keydown", function(event){
-  if(event.keycode===13){
-    event.preventDefault();
-    document.getElementById("submit").click();
+var Enter = document.getElementById("Input");
+Enter.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("submit").click();
   }
-})
+});
