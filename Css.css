@@ -93,7 +93,19 @@ transform: translateX(0%);
 	overflow:auto;
 }
 
+@keyframes example {
+	from {background-color:red;}
+	to {background-color:yellow;}
+}
+.abc {
+	width:100px
+	height:100px
+	animation-fill-mode:forwards;
+	background-color: red
+	animation-name:example
+	animation-duration:4s
 
+}
 
 .Encode{
 	vertical-align: baseline;
