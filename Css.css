@@ -97,7 +97,10 @@ transform: translateX(0%);
 }
 
 .Pass{
-	all:unset !important;
+	display:inline;
+	align-items:center;
+	flex-direction:row;
+	font-family: sans-serif;
 }
 
 
