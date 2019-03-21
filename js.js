@@ -1,10 +1,10 @@
 window.onload = CaesarCipher()
  function CaesarCipher() {
-   RadioEncode()
    if(document.getElementById('Encode').checked){
       var str = document.getElementById("Input").value
       var str_lower = String(str).toLowerCase();
       var error
+      RadioEncode()
      if(str===""){
        error ="Please enter a value..."
        document.getElementById("Message").style.color =  "red"
@@ -26,6 +26,7 @@ if(document.getElementById("Decode").checked){
    var str = document.getElementById("Input").value
    var str_lower = String(str).toLowerCase();
    var error
+   RadioDecode()
   if(str===""){
     error ="Please enter a value..."
     document.getElementById("Message").style.color =  "red"
