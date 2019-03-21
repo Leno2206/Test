@@ -50,3 +50,12 @@ function ShowPassword(){
     InputPass.type="password";
   }
 }
+
+
+var Enter= document.getElementById("Input");
+Enter.addEventListener("Keydown", function(event)){
+  if(event.keycode===13){
+    event.preventDefault();
+    document.getElementById("submit").click();
+  }
+})
