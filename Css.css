@@ -117,3 +117,8 @@ transform: translateX(0%);
 	animation-duration: 5s;
 	animation-name: Ball;
 }
+
+.BallAnim{
+	animation-duration: 2s;
+	animation-name: Ball
+}

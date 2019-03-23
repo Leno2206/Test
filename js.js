@@ -72,3 +72,9 @@ function RadioDecode(){
   document.getElementById("submit").innerHTML=
   "DECODE!"
 }
+
+
+function Roll(){
+  document.getElementById("Ball").classList.remove("Ball")
+  document.getElementById("Ball").classList.add("BallAnim")
+}
