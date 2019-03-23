@@ -75,6 +75,5 @@ function RadioDecode(){
 
 
 function Roll(){
-  document.getElementById("Ball").classList.remove("Ball")
-  document.getElementById("Ball").classList.add("BallAnim")
+  document.getElementById("Ball").className +=" BallAnim"
 }
