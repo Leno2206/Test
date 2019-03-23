@@ -112,6 +112,10 @@ transform: translateX(0%);
 	from{top:0px; right:0px; transform:rotate(360deg);}
 	to{right:500px; transform:rotate(0deg);}
 }
+@keyframes BallRes {
+	from{top:0px; right:300px; transform:rotate(0deg);}
+	to{right:0px; transform:rotate(350deg);}
+}
 
 .Ball:hover{
 	animation-duration: 5s;
@@ -122,3 +126,12 @@ transform: translateX(0%);
 	animation-duration: 10s;
 	animation-name: Ball;
 	animation-fill-mode: forwards;
+}
+
+
+.ballAnim::after{
+	animation-duration: 10s;
+	animation-name: BallRes;
+	animation-fill-mode: forwards;
+
+}
