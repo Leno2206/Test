@@ -110,7 +110,7 @@ transform: translateX(0%);
 	animation-name: Ball;
 }
 
-@@keyframes Ball {
+@keyframes Ball {
 	from{top:0px; right:0px}
 	to{top:100px; right:100px;}
 
