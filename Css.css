@@ -101,5 +101,6 @@ transform: translateX(0%);
 	top:100px;
 }
 .Ball{
-	width:50%
+	width:50%;
+	height:50%;
 }
