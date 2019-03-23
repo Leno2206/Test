@@ -109,8 +109,8 @@ transform: translateX(0%);
 }
 
 @keyframes Ball {
-	from{top:0px; right:0px; transform:rotate(0deg);}
-	to{right:500px; transform:rotate(360deg);}
+	from{top:0px; right:0px; transform:rotate(360deg);}
+	to{right:500px; transform:rotate(0deg);}
 }
 
 .Ball:hover{
