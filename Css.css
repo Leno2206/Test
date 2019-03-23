@@ -121,4 +121,3 @@ transform: translateX(0%);
 .BallAnim{
 	animation-duration: 2s;
 	animation-name: Ball;
-	transform:rotate(60deg);
