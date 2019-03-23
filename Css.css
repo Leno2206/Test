@@ -106,8 +106,6 @@ transform: translateX(0%);
 	position:fixed;
 	top:0px;
 	right:0px;
-	animation-duration: 5s;
-	animation-name: Ball;
 }
 
 @keyframes Ball {
@@ -125,4 +123,9 @@ transform: translateX(0%);
 	right:0px;
 	width:50px;
 	height:50px
+}
+
+.ball:hover{
+	animation-duration: 5s;
+	animation-name: Ball;
 }
