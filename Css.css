@@ -121,3 +121,4 @@ transform: translateX(0%);
 .BallAnim{
 	animation-duration: 10s;
 	animation-name: Ball;
+	animation-fill-mode: forwards;
