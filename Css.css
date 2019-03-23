@@ -113,7 +113,7 @@ transform: translateX(0%);
 	to{right:100px;}
 }
 
-.ball:hover{
+.Ball:hover{
 	animation-duration: 5s;
 	animation-name: Ball;
 }
