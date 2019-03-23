@@ -1,49 +1,46 @@
-
 <html>
-	<head>
-		<link rel="shortcut icon" href="favicon (1).ico">
-		<link rel="stylesheet" href="Css.css">
+
+<head>
+	<link rel="shortcut icon" href="favicon (1).ico">
+	<link rel="stylesheet" href="Css.css">
 	<title>Leno2206's Website</title>
 </head>
 <h1>
-Message Encoder
+	Message Encoder
 </h1>
-	<body>
 
-<button type="button" id="Invisi" Class="Invisi" name="button"></button>
-<a href="Page2.html">link</a>
-		<div class="form">
+<body>
 
-
-			<input type="password" name="name" autocomplete="off" id="Input" required autofocus />
-			<label for="name" class="label-name">
-				<span class="content-name">Your Message:</span>
-
-</label>
-</div>
-
-<label><form class="Radio">
-	<input type="radio" id="Encode" class = "Encode" name="button" checked onclick="RadioEncode()"
+	<button type="button" id="Invisi" Class="Invisi" name="button"></button>
+	<a href="Page2.html">link</a>
+	<div class="form">
 
 
-	/>Encode<br>
+		<input type="password" name="name" autocomplete="off" id="Input" required autofocus />
+		<label for="name" class="label-name">
+			<span class="content-name">Your Message:</span>
 
-	<input type="radio" id="Decode" class = "Decode" name="button"
-	onclick="RadioDecode()"
-	/>Decode<br>
-	</form>
+		</label>
+	</div>
+
+	<label>
+		<form class="Radio">
+			<input type="radio" id="Encode" class="Encode" name="button" checked onclick="RadioEncode()" />Encode<br>
+
+			<input type="radio" id="Decode" class="Decode" name="button" onclick="RadioDecode()" />Decode<br>
+		</form>
 	</label>
 
-    <label for="Pass">       <input type="checkbox" name="Pass"
-			id="Pass" class="Pass" onclick="ShowPassword()">Show Message</label>
+	<label for="Pass"> <input type="checkbox" name="Pass" id="Pass" class="Pass" onclick="ShowPassword()">Show Message</label>
 
-	<button class="submitClass" value="submit" name="button" onclick="CaesarCipher()"id="submit">Submit</button>
-
-
-<input type="text" name="Read" id="Message" class="p"  readonly>
-
-<script src="js.js"></script>
+	<button class="submitClass" value="submit" name="button" onclick="CaesarCipher()" id="submit">Submit</button>
 
 
-	</body>
-	</html>
+	<input type="text" name="Read" id="Message" class="p" readonly>
+
+	<script src="js.js"></script>
+
+
+</body>
+
+</html>

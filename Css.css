@@ -1,137 +1,132 @@
 body {
-	background-color:white;
-	height: 60vh;
-	display:flex;
-	justify-content: space-around;
-	align-items:center;
-	flex-direction: column;
-	font-family: sans-serif;
-}
-h1{
-	font-family: sans-serif;
-	color:green;
-	font-size: 50px
-
-
+  background-color: white;
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
 }
 
-
-.form{
-
-	width: 50%;
-	position: relative;
-	height:50px;
-	overflow: hidden
-
-
+h1 {
+  font-family: sans-serif;
+  color: green;
+  font-size: 50px
 }
 
-.form input{
-	width:100%;
-	height:100%;
-	color:#52985f;
-	padding-top: 25px;
-	border:none;
-	outline: none
+.form {
+  width: 50%;
+  position: relative;
+  height: 50px;
+  overflow: hidden
 }
 
+.form input {
+  width: 100%;
+  height: 100%;
+  color: #52985f;
+  padding-top: 25px;
+  border: none;
+  outline: none
+}
 
 .form label {
-	position: absolute;
-	bottom:0px;
-	left:0%;
-	width:100%;
-	height:100%;
-	pointer-events: none;
-	border-bottom: 1px solid black
-}
-.form label::after{
-	content:"";
-	position:absolute;
-	left:0px;
-	bottom:-1px;
-	height:100%;
-	width:100%;
-	border-bottom: 3px solid #52985f;
-	transform:translateX(-100%);
-	transition: transform 1.3s ease
-}
-.content-name{
-	position:absolute;
-	bottom:5px;
-	left:0px;
-	transition: all 1.3s ease;
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black
 }
 
-.form input:focus + .label-name .content-name,
-.form input:valid + .label-name .content-name{
-	transform: translateY(-150%);
-	font-size:14px;
-	color:#52985f;
-}
-.form input:focus + .label-name::after,
-.form input:valid + .label-name::after {
-transform: translateX(0%);
-}
-
-.submitClass{
-	background-color: pink;
-	  border: none;
-	  color: white;
-	  padding: 15px 32px;
-	  text-align: center;
-	  text-decoration: none;
-	  display: inline-block;
-	  font-size: 16px;
-}
-.p{
-	border:2px solid;
-	color:Green;
-	outline:none;
-	resize:horizontal;
-	width: 1000px;
-	overflow:auto;
+.form label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #52985f;
+  transform: translateX(-100%);
+  transition: transform 1.3s ease
 }
 
+.content-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 1.3s ease;
+}
 
-.Encode{
-	vertical-align: baseline;
+.form input:focus+.label-name .content-name,
+.form input:valid+.label-name .content-name {
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: #52985f;
 }
-.Radio{
-	top:100px;
+
+.form input:focus+.label-name::after,
+.form input:valid+.label-name::after {
+  transform: translateX(0%);
 }
-.Ball{
-	width:50px;
-	height:50px;
-	position:fixed;
-	top:0px;
-	right:0px;
+
+.submitClass {
+  background-color: pink;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.p {
+  border: 2px solid;
+  color: Green;
+  outline: none;
+  resize: horizontal;
+  width: 1000px;
+  overflow: auto;
+}
+
+.Encode {
+  vertical-align: baseline;
+}
+
+.Radio {
+  top: 100px;
+}
+
+.Ball {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
 }
 
 @keyframes Ball {
-	from{top:0px; right:0px; transform:rotate(360deg);}
-	to{right:500px; transform:rotate(0deg);}
-}
-@keyframes BallRes {
-	from{top:0px; right:300px; transform:rotate(0deg);}
-	to{right:0px; transform:rotate(350deg);}
-}
+  from {
+    top: 0px;
+    right: 0px;
+    transform: rotate(360deg);
+  }
 
-.Ball:hover{
-	animation-duration: 5s;
-	animation-name: Ball;
-}
-
-.BallAnim{
-	animation-duration: 10s;
-	animation-name: Ball;
-	animation-fill-mode: forwards;
+  to {
+    right: 500px;
+    transform: rotate(0deg);
+  }
 }
 
+.Ball:hover {
+  animation-duration: 5s;
+  animation-name: Ball;
+}
 
-.ballAnim::after{
-	animation-duration: 10s;
-	animation-name: BallRes;
-	animation-fill-mode: forwards;
-
+.BallAnim {
+  animation-duration: 10s;
+  animation-name: Ball;
+  animation-fill-mode: forwards;
 }
