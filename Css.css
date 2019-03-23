@@ -107,6 +107,13 @@ transform: translateX(0%);
 	top:0px;
 	right:0px;
 }
+
+@@keyframes Ball {
+	from{top:0px; right:0px}
+	to{top:100px; right:100px;}
+
+
+}
 .Invisi{
 	background:transparent;
 	border:none;
