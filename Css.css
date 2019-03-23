@@ -121,5 +121,3 @@ transform: translateX(0%);
 .BallAnim{
 	animation-duration: 2s;
 	animation-name: Ball
-	animation-fill-mode:alternate-reverse;
-}
