@@ -106,5 +106,9 @@ transform: translateX(0%);
 	position:fixed;
 	top:0px;
 	right:0px;
-	
+}
+.Invisi{
+	background:transparent;
+	border:none;
+	font-size:0;
 }
