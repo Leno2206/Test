@@ -103,4 +103,8 @@ transform: translateX(0%);
 .Ball{
 	width:50px;
 	height:50px;
+	position:fixed;
+	top:0px;
+	right:0px;
+	
 }
