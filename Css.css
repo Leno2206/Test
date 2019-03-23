@@ -108,7 +108,7 @@ transform: translateX(0%);
 	right:0px;
 }
 .Invisi{
-	background:red;
+	background:transparent;
 	border:none;
 	font-size:0;
 	position: fixed;
