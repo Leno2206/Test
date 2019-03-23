@@ -110,7 +110,7 @@ transform: translateX(0%);
 
 @keyframes Ball {
 	from{top:0px; right:0px}
-	to{top:100px; right:100px;}
+	to{right:100px;}
 
 
 }
@@ -125,7 +125,7 @@ transform: translateX(0%);
 	height:50px
 }
 
-.ball:hover{
+.ball:active{
 	animation-duration: 5s;
 	animation-name: Ball;
 }
