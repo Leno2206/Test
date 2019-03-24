@@ -126,7 +126,7 @@ h1 {
 }
 
 .BallAnim {
-  animation-duration: 10s;
+  animation-duration: 1s;
   animation-name: Ball;
   animation-fill-mode: forwards;
 }
