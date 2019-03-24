@@ -114,6 +114,7 @@ h1 {
 
   10% {
     transform: translateY(300px);
+    width: 100px;
   }
 
   50% {
