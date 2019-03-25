@@ -5,5 +5,5 @@ function setup() {
 function draw() {
   background(0)
   fill(255)
-  ellipse(60, 60, 60, 80)
+  ellipse(height / 2, width / 2, 60, 80)
 }
