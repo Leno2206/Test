@@ -13,3 +13,9 @@
 p {
   font-size: 100px
 }
+
+.counter {
+  bottom: 50px;
+  border: none;
+  outline: none;
+}
