@@ -26,11 +26,10 @@ function setup() {
 function draw() {
   // put drawing code here
   background(0);
-  image(dvd, x, y, dvd.width / 2, dvd.height / 2)
+  image(dvd.rotate(90), x, y, dvd.width / 2, dvd.height / 2)
   //rect(x, y, 80, 60);
   x = x + xspeed;
   y = y + yspeed;
-  dvd.rotate(90)
   if (x + dvd.width / 2 >= width) {
     xspeed = -xspeed;
     tint(random(0, 256), random(0, 256), random(0, 256), 100)
