@@ -13,10 +13,6 @@ function amk() {
   y = 0
 }
 
-var BallWidth = (dvd.width / 10)
-var BallHeight = (dvd.height / 10)
-
-
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
   x = random(0, 800);
@@ -28,7 +24,7 @@ function setup() {
 function draw() {
   // put drawing code here
   background(0);
-  image(dvd, x, y, BallWidth, BallHeight)
+  image(dvd, x, y, dvd.width / 2, dvd.height / 2)
   //rect(x, y, 80, 60);
   x = x + xspeed;
   y = y + yspeed;
