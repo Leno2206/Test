@@ -13,8 +13,8 @@ function amk() {
   y = 0
 }
 
-var BallWidth = dvd.width / 2
-var BallHeight = dvd.height / 2
+var BallWidth = (dvd.width / 2)
+var BallHeight = (dvd.height / 2)
 
 
 function setup() {
