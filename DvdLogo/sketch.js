@@ -18,14 +18,14 @@ function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
   x = random(0, 800);
   y = random(0, 600);
-  xspeed = 5;
-  yspeed = 5;
+  xspeed = 10;
+  yspeed = 10;
 }
 
 function draw() {
   // put drawing code here
   background(0);
-  image(dvd, x, y, 80, 60)
+  image(dvd, x, y, dvd.width, dvd.height)
   //rect(x, y, 80, 60);
   x = x + xspeed;
   y = y + yspeed;
