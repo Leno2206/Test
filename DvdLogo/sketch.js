@@ -3,6 +3,7 @@ var y;
 var xspeed;
 var yspeed;
 var hit;
+var hits = 0;
 
 function preload() {
   dvd = loadImage("Ball.png")
@@ -16,7 +17,6 @@ function amk() {
 }
 
 function setup() {
-  ;
   x = random(0, 800);
   y = random(0, 600);
   xspeed = 7.5;
@@ -24,7 +24,7 @@ function setup() {
 }
 
 function draw() {
-  // put drawing code here
+  document.getElementById("test12").value = hits
   createCanvas(window.innerWidth, window.innerHeight)
   background(0);
   image(dvd, x, y, dvd.width / 2, dvd.height / 2)
@@ -37,12 +37,14 @@ function draw() {
     x = width - dvd.width / 2
     background(0, 0, 0, 0)
     hit = 0
+    hits++
   } else if (x <= 0) {
     xspeed = -xspeed;
     tint(random(0, 256), random(0, 256), random(0, 256), 100)
     x = 0
     background(0, 0, 0, 0)
     hit = 0
+    hits++
   }
   if (y + dvd.height / 2 >= height) {
     yspeed = -yspeed;
@@ -50,13 +52,14 @@ function draw() {
     y = height - dvd.height / 2
     background(0, 0, 0, 0)
     hit = 0
+    hits++
   } else if (y <= 0) {
     yspeed = -yspeed;
     tint(random(0, 256), random(0, 256), random(0, 256), 100)
     y = 0
     background(0, 0, 0, 0)
     hit = 0
-
+    hits++
   }
 
 
