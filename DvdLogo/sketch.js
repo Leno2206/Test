@@ -18,8 +18,8 @@ function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
   x = random(0, 800);
   y = random(0, 600);
-  xspeed = 10;
-  yspeed = 10;
+  xspeed = 7.5;
+  yspeed = 7.5;
 }
 
 function draw() {
