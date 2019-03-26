@@ -1,4 +1,7 @@
 .test {
   position: fixed;
-  bottom: 0px;
+  bottom: 100px;
+  background-color: red;
+  color: blue;
+  border-radius: 100%
 }
