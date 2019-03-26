@@ -16,7 +16,7 @@ function amk() {
 }
 
 function setup() {
-  createCanvas(window.innerWidth, window.innerHeight);
+  ;
   x = random(0, 800);
   y = random(0, 600);
   xspeed = 7.5;
@@ -25,6 +25,7 @@ function setup() {
 
 function draw() {
   // put drawing code here
+  createCanvas(window.innerWidth, window.innerHeight)
   background(0);
   image(dvd, x, y, dvd.width / 2, dvd.height / 2)
   //rect(x, y, 80, 60);
