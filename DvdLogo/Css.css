@@ -4,7 +4,8 @@
   bottom: 100px;
   background-color: red;
   color: blue;
-  border-radius: 50% border:1px solid red;
+  border-radius: 50%;
+  border: 1px solid red;
   height: 100px;
   width: 100px;
 }
