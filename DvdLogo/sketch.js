@@ -67,22 +67,22 @@ function draw() {
 
   if (x == 0 && y == 0) {
     console.log(x, y);
-    alert("It hit the corner!")
+
     hit = 1
   }
   if (x == width - dvd.width && y == height - dvd.height) {
     console.log(x, y)
-    alert("It hit the corner!")
+
     hit = 1
   }
   if (x == width - dvd.width && y == 0) {
     console.log(x, y)
-    alert("It hit the corner!")
+
     hit = 1
   }
   if (x == 0 && y == height - dvd.height) {
     console.log(x, y)
-    alert("It hit the corner!")
+
     hit = 1
   }
   if (hit == 1) {
