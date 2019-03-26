@@ -25,7 +25,7 @@ function setup() {
 
 function draw() {
   // put drawing code here
-  background(colorMode(HSB, 0, 0, 100));
+  background(0);
   image(dvd, x, y, dvd.width / 2, dvd.height / 2)
   //rect(x, y, 80, 60);
   x = x + xspeed;
