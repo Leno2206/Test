@@ -32,7 +32,7 @@ function draw() {
   if (x + dvd.width >= width) {
     xspeed = -xspeed;
     tint(random(0, 255), random(0, 255), random(0, 255), 100)
-    x = width - 80
+    x = width - dvd.width
     background(0, 0, 0, 0)
     hit = 0
   } else if (x <= 0) {
@@ -45,7 +45,7 @@ function draw() {
   if (y + dvd.height >= height) {
     yspeed = -yspeed;
     tint(random(0, 255), random(0, 255), random(0, 255), 100)
-    y = height - 60
+    y = height - dvd.height
     background(0, 0, 0, 0)
     hit = 0
   } else if (y <= 0) {
