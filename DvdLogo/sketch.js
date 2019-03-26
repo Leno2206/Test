@@ -11,6 +11,8 @@ function preload() {
 function amk() {
   x = 0
   y = 0
+  xspeed = -1
+  yspeed = -1
 }
 
 function setup() {
