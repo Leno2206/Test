@@ -5,7 +5,7 @@ var yspeed;
 var hit;
 
 function preload() {
-  dvd = loadImage("Ball.png")
+  dvd = loadImage("Ball.png").rotate(90)
 }
 
 function amk() {
