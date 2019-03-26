@@ -5,7 +5,7 @@ var yspeed;
 var hit;
 
 function preload() {
-  dvd = loadImage("dvd1.png")
+  dvd = loadImage("dvd1.jpg")
 }
 
 function amk() {
