@@ -87,5 +87,7 @@ function draw() {
   }
   if (hit == 1) {
     background(random(0, 255), random(0, 255), random(0, 255), 100)
+    xspeed = 7.5
+    yspeed = 7.5
   }
 }
