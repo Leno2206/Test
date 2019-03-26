@@ -15,7 +15,7 @@ function amk() {
 
 
 function setup() {
-  createCanvas(window.innerWidth, window.InnerHeight);
+  createCanvas(window.innerWidth, window.innerHeight);
   x = random(0, 800);
   y = random(0, 600);
   xspeed = 5;
