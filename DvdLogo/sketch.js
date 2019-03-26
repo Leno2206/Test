@@ -24,7 +24,7 @@ function setup() {
 }
 
 function draw() {
-  document.getElementById("test12").value(hits)
+  document.getElementById("test12").value = hits
   createCanvas(window.innerWidth, window.innerHeight)
   background(0);
   image(dvd, x, y, dvd.width / 2, dvd.height / 2)
