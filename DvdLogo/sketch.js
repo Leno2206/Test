@@ -28,7 +28,7 @@ function setup() {
 function draw() {
   // put drawing code here
   background(0);
-  image(dvd, x, y, BallHeight, BallHeight)
+  image(dvd, x, y, BallWidth, BallHeight)
   //rect(x, y, 80, 60);
   x = x + xspeed;
   y = y + yspeed;
