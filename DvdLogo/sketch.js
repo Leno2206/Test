@@ -5,7 +5,7 @@ var yspeed;
 var hit;
 
 function preload() {
-  dvd = loadImage("dvd1.jpg")
+  dvd = loadImage("Ball.png")
 }
 
 function amk() {
@@ -25,7 +25,7 @@ function setup() {
 function draw() {
   // put drawing code here
   background(0);
-  image(dvd, x, y, dvd.width, dvd.height)
+  image(dvd, x, y, 400, 300)
   //rect(x, y, 80, 60);
   x = x + xspeed;
   y = y + yspeed;
