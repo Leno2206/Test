@@ -7,11 +7,11 @@ var hits = 0;
 var dvd;
 
 function preload() {
-  dvd = document.getElementById("Pic");
+  dvd = image("Ball.png", x, y, dvd.width, dvd.height)
 }
 
 function BallRotate() {
-  dvd.setAttribute("style", "transform:rotate(90deg)");
+  ("style", "transform:rotate(90deg)");
 }
 
 function amk() {
