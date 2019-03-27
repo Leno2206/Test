@@ -43,7 +43,7 @@ function draw() {
   if (GameOver == 0) {
     Time = Time - Dif
     rect(RectX, RectY, RectW, RectH)
-    tint(random(0, 256), random(0, 256), random(0, 256), 100)
+    fill(random(0, 256), random(0, 256), random(0, 256), 100)
   }
   if (mouseIsPressed && GameOver <= 0) {
     ellipse(mouseX, mouseY, 100)
@@ -56,7 +56,8 @@ function draw() {
     points++
     document.getElementById("Points").value = points
     Dif = Dif * 1.01
-    tint(random(0, 256), random(0, 256), random(0, 256), 100)
+    fill(random(0, 256), random(0, 256), random(0, 256), 100)
+
 
     Time = 10
 
