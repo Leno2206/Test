@@ -1,0 +1,26 @@
+.test {
+  position: fixed;
+  display: block;
+  bottom: 100px;
+  background-color: red;
+  color: black;
+  border-radius: 50%;
+  border: 1px solid red;
+  height: 100px;
+  width: 100px;
+  outline: none;
+}
+
+p {
+  font-size: 100px
+}
+
+.counter {
+  position: fixed;
+  display: block;
+  bottom: 50px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+}
