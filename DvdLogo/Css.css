@@ -20,6 +20,6 @@ p {
   bottom: 50px;
   border: none;
   outline: none;
-  background-color: black;
+  background-color: transparent;
   color: white;
 }
