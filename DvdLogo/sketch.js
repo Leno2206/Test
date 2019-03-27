@@ -7,7 +7,7 @@ var hits = 0;
 var dvd;
 
 function preload() {
-  dvd = loadImage("Ball.png")
+  dvd = document.getElementById("Pic");
 }
 
 function BallRotate() {
