@@ -33,13 +33,14 @@ function draw() {
   x = x + xspeed;
   y = y + yspeed;
   if (x + dvd.width / 2 >= width) {
+    rotate(90)
     xspeed = -xspeed;
     tint(random(0, 256), random(0, 256), random(0, 256), 100)
     x = width - dvd.width / 2
     background(0, 0, 0, 0)
     hit = 0
     hits++
-    rotate(90)
+
   } else if (x <= 0) {
     xspeed = -xspeed;
     tint(random(0, 256), random(0, 256), random(0, 256), 100)
