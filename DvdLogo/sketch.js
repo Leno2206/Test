@@ -40,7 +40,7 @@ function draw() {
     hit = 0
     hits++
     translate(dvd.width / 2, dvd.height / 2)
-    rotate(PI / 2)
+    rotate(90)
   } else if (x <= 0) {
     xspeed = -xspeed;
     tint(random(0, 256), random(0, 256), random(0, 256), 100)
