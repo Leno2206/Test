@@ -7,11 +7,11 @@ var hits = 0;
 var dvd;
 
 function preload() {
-
+  dvd = loadImage("Ball.png")
 }
 
 function BallRotate() {
-  img.setAttribute("style", "transform:rotate(90deg)");
+  dvd.setAttribute("style", "transform:rotate(90deg)");
 }
 
 function amk() {
@@ -26,7 +26,7 @@ function setup() {
   y = random(0, 600);
   xspeed = 7.5;
   yspeed = 7.5;
-  dvd = loadImage("Ball.png")
+
 }
 
 function draw() {
