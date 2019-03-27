@@ -8,6 +8,7 @@
   border: 1px solid red;
   height: 100px;
   width: 100px;
+  outline: none;
 }
 
 p {
