@@ -39,6 +39,7 @@ function draw() {
     background(0, 0, 0, 0)
     hit = 0
     hits++
+    translate(dvd.width / 2, dvd.height / 2, [z])
     rotate(PI / 2)
   } else if (x <= 0) {
     xspeed = -xspeed;
