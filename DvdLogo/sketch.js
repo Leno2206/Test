@@ -10,6 +10,10 @@ function preload() {
 
 }
 
+function BallRotate() {
+  img.setAttribute("style", "transform:rotate(90deg)");
+}
+
 function amk() {
   x = 0
   y = 0
@@ -34,7 +38,7 @@ function draw() {
   x = x + xspeed;
   y = y + yspeed;
   if (x + dvd.width / 2 >= width) {
-    dvd.rotate(90)
+    BallRotate()
     xspeed = -xspeed;
     tint(random(0, 256), random(0, 256), random(0, 256), 100)
     x = width - dvd.width / 2
