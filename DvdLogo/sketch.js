@@ -40,7 +40,7 @@ function draw() {
     hit = 0
     hits++
     push();
-    translate(x, y)
+    translate(x / 2, y / 2)
     rotate(PI / 2)
     pop()
   } else if (x <= 0) {
