@@ -4,6 +4,7 @@ var xspeed;
 var yspeed;
 var hit;
 var hits = 0;
+var dvd;
 
 function preload() {
   dvd = loadImage("Ball.png")
@@ -38,6 +39,7 @@ function draw() {
     background(0, 0, 0, 0)
     hit = 0
     hits++
+    rotate(90)
   } else if (x <= 0) {
     xspeed = -xspeed;
     tint(random(0, 256), random(0, 256), random(0, 256), 100)
