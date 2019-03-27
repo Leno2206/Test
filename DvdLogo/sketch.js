@@ -64,7 +64,7 @@ function draw() {
     hits++
   }
 
-  if (hits % 100 === 0 || hits != 0) {
+  if (hits % 100 === 0 && hits != 0) {
     hit = 0
     background(random(0, 256), random(0, 256), random(0, 256), 100)
 
