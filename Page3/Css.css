@@ -1,0 +1,33 @@
+.game {
+  position: fixed;
+  top: 0px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.Off {
+  Position: fixed;
+  background-color: transparent;
+  color: transparent;
+  border: none;
+  outline: none;
+}
+
+.On {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-color: red;
+  color: black;
+  border-radius: 50%;
+  border: 1px solid red;
+  height: 100px;
+  width: 100px;
+  outline: none;
+}
+
+body {
+  overflow: hidden;
+}
