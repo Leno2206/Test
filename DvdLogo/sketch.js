@@ -7,7 +7,7 @@ var hits = 0;
 var dvd;
 
 function preload() {
-  dvd = loadImage("Ball.png")
+
 }
 
 function amk() {
@@ -22,6 +22,7 @@ function setup() {
   y = random(0, 600);
   xspeed = 7.5;
   yspeed = 7.5;
+  dvd = loadImage("Ball.png")
 }
 
 function draw() {
