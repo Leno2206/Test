@@ -39,6 +39,7 @@ function draw() {
     background(0, 0, 0, 0)
     hit = 0
     hits++
+    rotate(PI / 2)
   } else if (x <= 0) {
     xspeed = -xspeed;
     tint(random(0, 256), random(0, 256), random(0, 256), 100)
