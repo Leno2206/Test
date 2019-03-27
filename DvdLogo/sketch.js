@@ -7,11 +7,7 @@ var hits = 0;
 var dvd;
 
 function preload() {
-  dvd = image("Ball.png", x, y, dvd.width, dvd.height)
-}
-
-function BallRotate() {
-  ("style", "transform:rotate(90deg)");
+  dvd = loadImage("Ball.png")
 }
 
 function amk() {
@@ -26,7 +22,6 @@ function setup() {
   y = random(0, 600);
   xspeed = 7.5;
   yspeed = 7.5;
-
 }
 
 function draw() {
@@ -38,14 +33,12 @@ function draw() {
   x = x + xspeed;
   y = y + yspeed;
   if (x + dvd.width / 2 >= width) {
-    BallRotate()
     xspeed = -xspeed;
     tint(random(0, 256), random(0, 256), random(0, 256), 100)
     x = width - dvd.width / 2
     background(0, 0, 0, 0)
     hit = 0
     hits++
-
   } else if (x <= 0) {
     xspeed = -xspeed;
     tint(random(0, 256), random(0, 256), random(0, 256), 100)
