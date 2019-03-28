@@ -24,3 +24,7 @@ p {
   background-color: transparent;
   color: white;
 }
+
+body {
+  overflow: none;
+}
