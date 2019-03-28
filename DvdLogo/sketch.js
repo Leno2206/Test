@@ -5,6 +5,8 @@ var yspeed;
 var hit;
 var hits = 0;
 var dvd;
+var theta = 0.0
+var wall = false
 
 function preload() {
   dvd = loadImage("Ball.png")
@@ -22,6 +24,7 @@ function setup() {
   y = random(0, 600);
   xspeed = 7.5;
   yspeed = 7.5;
+  imageMode(CENTER)
 }
 
 function draw() {
@@ -32,6 +35,10 @@ function draw() {
   //rect(x, y, 80, 60);
   x = x + xspeed;
   y = y + yspeed;
+  if (wall) {
+    theta += PI / 2
+  }
+  rotate(theta)
   if (x + dvd.width / 2 >= width) {
     xspeed = -xspeed;
     tint(random(0, 256), random(0, 256), random(0, 256), 100)
@@ -39,10 +46,7 @@ function draw() {
     background(0, 0, 0, 0)
     hit = 0
     hits++
-    push();
-    translate(x / 2, y / 2)
-    rotate(PI / 2)
-    pop()
+    wall = true
   } else if (x <= 0) {
     xspeed = -xspeed;
     tint(random(0, 256), random(0, 256), random(0, 256), 100)
@@ -50,6 +54,7 @@ function draw() {
     background(0, 0, 0, 0)
     hit = 0
     hits++
+    wall = true
   }
   if (y + dvd.height / 2 >= height) {
     yspeed = -yspeed;
@@ -58,6 +63,7 @@ function draw() {
     background(0, 0, 0, 0)
     hit = 0
     hits++
+    wall = true
   } else if (y <= 0) {
     yspeed = -yspeed;
     tint(random(0, 256), random(0, 256), random(0, 256), 100)
@@ -65,6 +71,7 @@ function draw() {
     background(0, 0, 0, 0)
     hit = 0
     hits++
+    wall = true
   }
 
   if (hits % 100 === 0 && hits != 0) {
@@ -104,5 +111,6 @@ function draw() {
     background(random(0, 256), random(0, 256), random(0, 256), 100)
     xspeed = 7.5
     yspeed = 7.5
+
   }
 }

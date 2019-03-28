@@ -3,6 +3,7 @@ var RectY
 var Time = 10
 var Dif = 0.1
 var GameOver = 0
+var hit = 0
 
 function Restart() {
   Time = 10
@@ -36,14 +37,15 @@ var h = 99*/
 
 
 function draw() {
-  createCanvas(window.innerWidth, window.innerHeight)
+  createCanvas(window.innerWidth, window.innerHeight - 1)
   background(0)
   //console.log(Time)
   //console.log(Dif)
   if (GameOver == 0) {
     Time = Time - Dif
     rect(RectX, RectY, RectW, RectH)
-    fill(random(0, 256), random(0, 256), random(0, 256), 100)
+
+
   }
   if (mouseIsPressed && GameOver <= 0) {
     ellipse(mouseX, mouseY, 100)
@@ -56,7 +58,7 @@ function draw() {
     points++
     document.getElementById("Points").value = points
     Dif = Dif * 1.01
-    fill(random(0, 256), random(0, 256), random(0, 256), 100)
+
 
 
     Time = 10
@@ -79,4 +81,5 @@ function draw() {
     //console.log(Time)
   }
   console.log(Time, GameOver, Points)
+
 }
