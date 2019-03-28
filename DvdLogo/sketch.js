@@ -24,7 +24,7 @@ function setup() {
   y = random(0, 600);
   xspeed = 7.5;
   yspeed = 7.5;
-  imageMode(CENTER)
+  //imageMode(CENTER)
 }
 
 function draw() {
