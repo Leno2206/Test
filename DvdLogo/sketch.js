@@ -28,6 +28,7 @@ function setup() {
 }
 
 function draw() {
+  translate(x, y)
   document.getElementById("test12").value = hits
   createCanvas(window.innerWidth, window.innerHeight)
   background(0);
