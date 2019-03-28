@@ -55,6 +55,8 @@ function draw() {
     hit = 0
     hits++
     wall = true
+  } else {
+    wall = false
   }
   if (y + dvd.height / 2 >= height) {
     yspeed = -yspeed;
@@ -72,6 +74,8 @@ function draw() {
     hit = 0
     hits++
     wall = true
+  } else {
+    wall = false
   }
 
   if (hits % 100 === 0 && hits != 0) {
