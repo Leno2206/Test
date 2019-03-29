@@ -4,9 +4,9 @@ var Time = 10
 var Dif = 0.1
 var GameOver = 0
 var hit = 0
-var Class = document.getElementById("Restart")
+var wasdas = document.getElementById("Restart")
 if (true) {
-  console.log(Class.classList);
+  console.log(wasdas.classList);
 }
 
 function Restart() {
