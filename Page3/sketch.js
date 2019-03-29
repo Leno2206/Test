@@ -80,6 +80,7 @@ function draw() {
     Time = 100
     //console.log(Time)
   }
-  console.log(Class.classList)
-
+}
+if (true) {
+  console.log(Class.classList);
 }
