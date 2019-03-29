@@ -13,7 +13,7 @@ function Restart() {
   Time = 10
   Dif = 0.1
   GameOver = 0
-  Class.className = "Off"
+  wasdas.className = "Off"
   console.log(GameOver)
   RectX = random(0, window.innerWidth - 100)
   RectY = random(0, window.innerHeight - 100)
