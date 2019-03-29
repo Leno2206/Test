@@ -16,8 +16,8 @@
 }
 
 .On {
-  display: flex;
-  justify-content: center;
+  bottom: 50%;
+  right: 50%;
   position: absolute;
   background-color: red;
   color: black;
