@@ -17,7 +17,7 @@
 
 .On {
   margin: 0 auto;
-  position: absolute;
+  position: fixed;
   background-color: red;
   color: black;
   border-radius: 100%;
