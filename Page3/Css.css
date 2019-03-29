@@ -16,8 +16,7 @@
 }
 
 .On {
-  bottom: 50%;
-  right: 50%;
+  margin: 0 auto;
   position: absolute;
   background-color: red;
   color: black;
