@@ -82,6 +82,6 @@ function draw() {
     //console.log(Time)
 
   }
-  console.log(Points)
+  //console.log(Points)
 
 }
