@@ -4,13 +4,12 @@ var Time = 10
 var Dif = 0.1
 var GameOver = 0
 var hit = 0
-var Class
+var Class = document.getElementById("Restart")
 
 function Restart() {
   Time = 10
   Dif = 0.1
   GameOver = 0
-  Class = document.getElementById("Restart")
   Class.className = "Off"
   console.log(GameOver)
   RectX = random(0, window.innerWidth - 100)
