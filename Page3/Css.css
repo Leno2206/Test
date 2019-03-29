@@ -16,7 +16,9 @@
 }
 
 .On {
-  margin: 0 auto;
+  display: block;
+  vertical-align: middle;
+  margin: auto;
   position: fixed;
   background-color: red;
   color: black;
