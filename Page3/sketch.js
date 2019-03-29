@@ -4,16 +4,14 @@ var Time = 10
 var Dif = 0.1
 var GameOver = 0
 var hit = 0
-var wasdas = document.getElementById("Restart")
-if (true) {
-  console.log(wasdas.classList);
-}
+var Class
 
 function Restart() {
   Time = 10
   Dif = 0.1
   GameOver = 0
-  wasdas.className = "Off"
+  var Class = document.getElementById("Restart")
+  Class.className = "Off"
   console.log(GameOver)
   RectX = random(0, window.innerWidth - 100)
   RectY = random(0, window.innerHeight - 100)
@@ -83,4 +81,6 @@ function draw() {
     Time = 100
     //console.log(Time)
   }
+  console.log(Class.classList)
+
 }
