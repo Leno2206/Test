@@ -24,13 +24,12 @@
   height: 500px;
   width: 500px;
   outline: none;
+  display: table;
+  margin: 0 auto
 }
 
 body {
   overflow: hidden;
 }
 
-.wrap {
-  display: table;
-  margin: 0 auto
-}
+.wrap {}
