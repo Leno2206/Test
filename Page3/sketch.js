@@ -4,7 +4,6 @@ var Time = 10
 var Dif = 0.1
 var GameOver = 0
 var hit = 0
-var Class
 
 function Restart() {
   Time = 10
@@ -73,6 +72,7 @@ function draw() {
     var Class = document.getElementById("Restart")
     Class.className = "On"
     GameOver = 2
+    console.log(Class.classList)
     //console.log(Class.classList)
   }
   if (GameOver == 2) {
@@ -80,7 +80,8 @@ function draw() {
     RectY = -100
     Time = 100
     //console.log(Time)
+
   }
-  console.log(Class.classList)
+  console.log(Points)
 
 }
