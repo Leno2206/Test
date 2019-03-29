@@ -5,6 +5,9 @@ var Dif = 0.1
 var GameOver = 0
 var hit = 0
 var Class = document.getElementById("Restart")
+if (true) {
+  console.log(Class.classList);
+}
 
 function Restart() {
   Time = 10
@@ -80,7 +83,4 @@ function draw() {
     Time = 100
     //console.log(Time)
   }
-}
-if (true) {
-  console.log(Class.classList);
 }
