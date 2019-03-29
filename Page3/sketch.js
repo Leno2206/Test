@@ -80,6 +80,6 @@ function draw() {
     Time = 100
     //console.log(Time)
   }
-  console.log(Time, GameOver, Points)
+  console.log(Class.classList)
 
 }
